@@ -8,8 +8,8 @@
 body {
   overflow: hidden;
   background-image: url("assets/background-image-light.jpg");
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: auto;
   background-size: 100vw 100vh;
   position: relative;
   background-repeat: no-repeat;
@@ -219,4 +219,388 @@ body {
   margin-top: 1rem;
   font-size: 1.5rem;
   display: block;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+  .container {
+    width: 29rem;
+    top: 2rem;
+  }
+  .container__title {
+    font-size: 1.5rem;
+    /* margin-top: 2rem; */
+  }
+  .container__subtitle {
+    font-size: 2.2rem;
+  }
+  .paperplane-title {
+    font-size: 2rem;
+  }
+  .sauce {
+    left: 32rem;
+    width: 19rem;
+  }
+  .email {
+    width: 22rem;
+    left: calc(30rem + 22rem + 1rem);
+    height: 32rem;
+  }
+  .form-input,
+  .form-textarea {
+    width: 20rem;
+  }
+  .container-body {
+    left: 1rem;
+  }
+  .paperplane {
+    width: 25rem;
+    left: 1rem;
+    top: 23rem;
+    height: 18rem;
+  }
+  .paperplane-heading {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-title {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-img {
+    top: 10.5rem;
+    left: 13.5rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container {
+    width: 25rem;
+    height: 17rem;
+    left: 1rem;
+  }
+  .container__title {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  .container__description {
+    width: 22rem;
+    font-size: 0.9rem;
+  }
+  .container__subtitle {
+    font-size: 1.9rem;
+  }
+  .paperplane-title {
+    font-size: 2rem;
+  }
+  .sauce {
+    left: 27rem;
+    width: 17rem;
+    height: 25rem;
+  }
+  .email {
+    width: 18rem;
+    left: calc(25rem + 22rem);
+    height: 30rem;
+  }
+  .sauce-body {
+    margin-left: 0.1rem;
+  }
+  .benefits-list {
+    margin-left: -1rem;
+  }
+  .form-input,
+  .form-textarea {
+    width: 15rem;
+  }
+  .sauce-title,
+  .email-title {
+    font-size: 1rem;
+  }
+  .sauce-subtitle,
+  .email-subtitle {
+    font-size: 0.8rem;
+  }
+  .paperplane {
+    width: 22rem;
+    left: 1.2rem;
+    top: 23rem;
+    height: 15rem;
+  }
+  .paperplane-heading {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-title {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-img {
+    top: 10.5rem;
+    left: 13.5rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 20rem;
+    height: 18rem;
+    left: 1rem;
+  }
+  .container__title {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .container__description {
+    width: 14rem;
+    font-size: 0.7rem;
+  }
+  .container__subtitle {
+    font-size: 1.5rem;
+  }
+  .paperplane-title {
+    font-size: 2rem;
+  }
+  .sauce {
+    left: 22rem;
+    width: 15rem;
+    height: 20rem;
+    top: 27rem;
+  }
+  .email {
+    width: 18rem;
+    left: calc(25rem + 5rem);
+    height: 23rem;
+    top: 2rem;
+  }
+  .sauce-body {
+    margin-left: 0.1rem;
+    width: 13rem;
+  }
+  .benefits-list {
+    margin-left: -1rem;
+  }
+  .item-name {
+    font-size: 0.8rem;
+  }
+  .form-input,
+  .form-textarea {
+    width: 15rem;
+  }
+  .sauce-title,
+  .email-title {
+    font-size: 1rem;
+  }
+  .sauce-subtitle,
+  .email-subtitle {
+    font-size: 0.8rem;
+  }
+  .paperplane {
+    width: 18rem;
+    left: 1.2rem;
+    top: 25rem;
+    height: 18rem;
+  }
+  .paperplane-heading {
+    font-size: 0.2rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-title {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-img {
+    top: 8.5rem;
+    left: 10.5rem;
+  }
+  .form-textarea {
+    height: 5rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  .container {
+    width: 15rem;
+    height: 19rem;
+    left: 1rem;
+  }
+  .container__title {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+  .container__description {
+    width: 14rem;
+    font-size: 0.7rem;
+  }
+  .container__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .paperplane-title {
+    font-size: 1.5rem;
+  }
+  .sauce {
+    left: 17rem;
+    width: 13rem;
+    height: 17rem;
+    top: 22rem;
+  }
+  .email {
+    width: 13.2rem;
+    left: calc(17rem);
+    height: 20rem;
+    top: 1rem;
+  }
+  
+  .sauce-body {
+    margin-left: 0.1rem;
+    width: 11rem;
+  }
+  .benefits-list {
+    margin-left: -1rem;
+  }
+  .item-name {
+    font-size: 0.6rem;
+  }
+  .form-input,
+  .form-textarea {
+    width: 10rem;
+    margin-left: .8rem;
+    /* display: block; */
+  }
+  .form-input {
+    height: 2rem;
+  }
+  .sauce-title,
+  .email-title {
+    font-size: 0.7rem;
+  }
+  .sauce-subtitle,
+  .email-subtitle {
+    font-size: 0.8rem;
+  }
+  .paperplane {
+    width: 15rem;
+    left: 1rem;
+    top: 23.5rem;
+    height: 15rem;
+  }
+  .paperplane-heading {
+    font-size: 0.1rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-title {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-img {
+    top: 9.5rem;
+    left: 8rem;
+    width: 13%;
+  }
+  .form-textarea {
+    height: 4.5rem;
+    padding: 0.5rem;
+  }
+  .button {
+    font-size: 0.5rem;
+    margin-left: .8rem;
+    margin-top: .5rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .container {
+    width: 15rem;
+    height: 19rem;
+    left: 2rem;
+  }
+  .container__title {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+  .container__description {
+    width: 14rem;
+    font-size: 0.7rem;
+  }
+  .container__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .paperplane-title {
+    font-size: 1.5rem;
+  }
+  .sauce {
+    left: 22rem;
+    width: 13rem;
+    height: 17rem;
+    top: 22rem;
+  }
+  .email {
+    width: 17rem;
+    left: calc(20rem);
+    height: 20rem;
+    top: 1rem;
+  }
+  
+  .sauce-body {
+    margin-left: 0.1rem;
+    width: 11rem;
+  }
+  .benefits-list {
+    margin-left: -1rem;
+  }
+  .item-name {
+    font-size: 0.6rem;
+  }
+  .form-input,
+  .form-textarea {
+    width: 12rem;
+    margin-left: .8rem;
+    /* display: block; */
+  }
+  .form-input {
+    height: 2rem;
+  }
+  .sauce-title,
+  .email-title {
+    font-size: 0.7rem;
+  }
+  .sauce-subtitle,
+  .email-subtitle {
+    font-size: 0.8rem;
+  }
+  .paperplane {
+    width: 15rem;
+    left: 3rem;
+    top: 23.5rem;
+    height: 15rem;
+  }
+  .paperplane-heading {
+    font-size: 0.1rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-title {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  .paperplane-img {
+    top: 9.5rem;
+    left: 8rem;
+    width: 13%;
+  }
+  .form-textarea {
+    height: 4.5rem;
+    padding: 0.5rem;
+  }
+  .button {
+    font-size: 0.5rem;
+    margin-left: .8rem;
+    margin-top: .5rem;
+  }
 }
